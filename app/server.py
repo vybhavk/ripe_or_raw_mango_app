@@ -5,7 +5,7 @@ from fastai.vision import (
     open_image,
     models,
 )
-from fastai import Path
+from pathlib import Path
 from io import BytesIO
 from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
