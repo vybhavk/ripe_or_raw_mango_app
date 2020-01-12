@@ -1,9 +1,11 @@
 import aiohttp
 import asyncio
 import uvicorn
+from fastai import *
 from fastai.vision import (
     open_image,
     models,
+	load_learner
 )
 from pathlib import Path
 from io import BytesIO
