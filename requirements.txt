@@ -4,5 +4,5 @@ fastai
 numpy==1.16.3
 starlette
 uvicorn
-Pillow
+Pillow==6.1
 python-multipart
