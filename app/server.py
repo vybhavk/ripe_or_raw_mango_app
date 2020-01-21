@@ -5,7 +5,8 @@ from fastai import *
 from fastai.vision import (
     open_image,
     models,
-	load_learner
+	load_learner,
+	torch
 )
 from pathlib import Path
 from io import BytesIO
