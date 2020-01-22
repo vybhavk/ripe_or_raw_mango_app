@@ -15,8 +15,6 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-defaults.device = torch.device('cpu')
-
 export_file_url = 'https://drive.google.com/uc?export=download&id=1GiDxbF5pdklnAjH32lqLKtgfmgzIfTec'
 #'https://drive.google.com/uc?export=download&id=1GkBc9d3OkzNRvga0xDwURPHKPtp2QKfZ'
 export_file_name = 'export.pkl'
